@@ -1,0 +1,141 @@
+- name: Dr. Tao Sun
+  role: Postdoctoral Researcher
+  affiliation: Department of Advanced Computing Sciences, Maastricht University
+  bio: "Tao is currently a senior researcher in our team leading research projects and contributing to computer science education. He works on spiking neural networks and neuromorphic computing for speech processing and bio-medical applications."
+  email: tao.sun@maastrichtuniversity.nl
+  photo: /assets/images/team/tao-sun.jpeg
+  classes:
+    - Team Members
+  status: currents
+  start_year: 2025
+
+- name: Laurent Chen
+  role: Junior Researcher
+  affiliation: Department of Advanced Computing Sciences, Maastricht University
+  bio: "Laurent is currently a junior researcher for our NWO AiNed XS project in collaboration with TU Dresden. He works on asynchronous event-driven neural networks for neuromorphic supercomputing. Laurent also finished his master thesis at ERNIS, working on building the software simulation and training framework for asynchronous neural networks."
+  email: laurent.chen@maastrichtuniversity.nl
+  photo: /assets/images/team/laurent-chen.jpeg
+  classes:
+    - Team Members
+  status: currents
+  start_year: 2025
+
+- name: Afsana Khan
+  role: PhD Candidate
+  affiliation: Department of Advanced Computing Sciences, Maastricht University
+  bio: "Co-supervised with Prof. Anna Wilbik and Dr. Marijn ten Thij (Tilburg University)"
+  interests:
+    - Federated Learning
+    - Data Fusion
+  photo: /assets/images/team/afsana-khan.jpeg
+  classes:
+    - PhD Students
+  status: current
+  start_year: 2022
+
+- name: Tim Dick
+  role: PhD Candidate
+  affiliation: MACSBio Systems Biology & Bioinformatics, Maastricht University
+  bio: "Co-supervised with Prof. Elia Formisano"
+  interests:
+    - Brain-inspired Computing
+    - Computational Neuroscience
+  photo: /assets/images/team/tim-dick.jpeg
+  classes:
+    - PhD Students
+  status: current
+  start_year: 2025
+
+- name: Sepideh Ghanaat
+  role: Master Student (Master AI)
+  affiliation: Department of Advanced Computing Sciences, Maastricht University
+  bio: "Sepideh is doing her research internship project at ERNIS on optimizing asynchronous SNNs on SpiNNaker2 neuromorphic processor."
+  photo: /assets/images/team/sepideh-ghanaat.jpeg
+  classes:
+    - Master Students
+  status: current
+  start_year: 2026
+
+- name: Joshua Kramer
+  role: Master Student (Master AI)
+  affiliation: Department of Advanced Computing Sciences, Maastricht University
+  bio: "Joshua is doing his research internship project at ERNIS on edge small language model with Nvidia Jetson."
+  photo: /assets/images/team/joshua-kramer.jpeg
+  classes:
+    - Master Students
+  status: current
+  start_year: 2026
+
+- name: Aurora Pia Ghiardelli
+  role: Master Student (Master AI)
+  affiliation: imec & Department of Advanced Computing Sciences, Maastricht University
+  bio: 'Aurora is finishing her master thesis project at imec on intracortical neural signal processing jointly supervised by Dr. Yao-Hong Liu (imec). She has done her research internship project at ERNIS on reliable, energy-efficient framework for 3D brain tumor segmentation using spiking neural networks. The result of the project is accepted at ISBI 2026, the premier scientific conference for biomidical imaging. <a href="https://arxiv.org/abs/2601.16652">See her paper here</a>.'
+  photo: /assets/images/team/aurora-pia.jpeg
+  classes:
+    - Master Students
+  status: current
+  start_year: 2024
+
+- name: Bas Körver
+  role: Master Student (Master AI)
+  affiliation: Department of Advanced Computing Sciences, Maastricht University
+  bio: 'Bas is finishing his master thesis project on event-based vision and automatic data collection system for biodiversity monitoring of insects.'
+  photo: /assets/images/team/bas-korver.jpeg
+  classes:
+    - Master Students
+  status: current
+  start_year: 2025
+
+- name: Francesca Rivelli
+  role: Master Student (Master AI)
+  affiliation: Department of Advanced Computing Sciences, Maastricht University
+  bio: 'Francesca finished her master research internship project at ERNIS. Her work on ultra-efficient intracortical neural decoding using adaptively pruned spiking neural networks is published at EMBC 2025, the premier scientific conference for biomidical engineering. She presented the poster of her paper in EMBC at Copenhagen in the summer of 2025. <a href="https://ieeexplore.ieee.org/abstract/document/11254088">See her paper here</a>.'
+  classes:
+    - Previous Members
+  status: alumni
+  start_year: 2024
+  end_year: 2025
+
+- name: Ismael Gomez Garrido
+  role: Master Student (Master AI)
+  affiliation: Department of Advanced Computing Sciences, Maastricht University
+  bio: 'Ismael finished his master thesis at ERNIS. His work shows it is possible to perform full integer arithmetic online training for spiking neural networks, paving the way for very efficient neural network training on embedded devices. His thesis work is published at ICANN 2025 and he gave an oral presentation on the paper in the conference at Kaunas in September of 2025. <a href="https://link.springer.com/chapter/10.1007/978-3-032-04558-4_45">See his paper here</a>.'
+  photo: /assets/images/team/ismael-gomez.jpeg
+  classes:
+    - Previous Members
+  status: alumni
+  start_year: 2024
+  end_year: 2025
+
+- name: Sudi Wang
+  role: Master Student (Master Data Science and Decision Making)
+  affiliation: Department of Advanced Computing Sciences, Maastricht University
+  bio: 'Sudi finished her master thesis at ERNIS. Her project worked on KV-cache compression for LLMs using recurrent memory states and efficient training policies. She was invited to give an oral presentation of her thesis work in the Application in AI track of NWO ICT.OPEN 2025.'
+  photo: /assets/images/team/sudi-wang.jpeg
+  classes:
+    - Previous Members
+  status: alumni
+  start_year: 2024
+  end_year: 2025
+
+- name: Tauseef Ahmed
+  role: Master Student (Master AI)
+  affiliation: imec & Department of Advanced Computing Sciences, Maastricht University
+  bio: 'Tauseef finished his master thesis at imec working on event-driven state space models for speech recognition and neuromorphic software simulation. His project was jointly supervised by Kanishkan Vadivel (imec). The results of his thesis is currently submitted to a conference and under review.'
+  photo: /assets/images/team/tauseef-ahmed.jpeg
+  classes:
+    - Previous Members
+  status: alumni
+  start_year: 2025
+  end_year: 2026
+
+- name: Tudor Hermenean
+  role: Master Student (Master AI)
+  affiliation: Department of Advanced Computing Sciences, Maastricht University
+  bio: 'Tudor finished his master research internship project at ERNIS. He worked on a project developing low-latency person detection with event-based vision and FPGA-based AI acceleration. He built a low-latency object detection pipeline using Prophesee 1Mpix event-based camera and AMD KV260. His pipeline and developed demo will be open source in the near future.'
+  photo: /assets/images/team/tudor-hermenean.jpeg
+  classes:
+    - Previous Members
+  status: alumni
+  start_year: 2025
+  end_year: 2026

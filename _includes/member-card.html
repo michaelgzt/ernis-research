@@ -1,0 +1,25 @@
+<article class="member-card">
+  <div class="member-avatar" aria-hidden="true">
+    {% if include.member.photo %}
+      <img src="{{ include.member.photo | relative_url }}" alt="">
+    {% else %}
+      {{ include.member.name | slice: 0 }}
+    {% endif %}
+  </div>
+  <div>
+    <h3>{{ include.member.name }}</h3>
+    <p class="member-role">{{ include.member.role }}</p>
+    <p>{{ include.member.affiliation }}</p>
+    <p>{{ include.member.bio }}</p>
+    {% if include.member.interests %}
+      <p><strong>Interests:</strong> {{ include.member.interests | join: ", " }}</p>
+    {% endif %}
+    <p class="member-links">
+      {% if include.member.email %}<a href="mailto:{{ include.member.email }}">Email</a>{% endif %}
+      {% if include.member.website %}{% if include.member.email %} · {% endif %}<a href="{{ include.member.website }}">Website</a>{% endif %}
+    </p>
+    <p class="member-years">
+      {{ include.member.start_year }}{% if include.member.end_year %} - {{ include.member.end_year }}{% else %} - Present{% endif %}
+    </p>
+  </div>
+</article>

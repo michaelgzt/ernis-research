@@ -1,0 +1,57 @@
+---
+layout: default
+---
+<section class="home-intro" aria-labelledby="home-title">
+  <div>
+    <p class="eyebrow">
+      <span class="cap">E</span><span class="cap">R</span><span class="cap">N</span><span class="cap">I</span><span class="cap">S</span> -
+      <span class="cap">E</span>dge <span class="cap">R</span>obotics <span class="cap">N</span>euromorphic <span class="cap">I</span>ntelligent <span class="cap">S</span>ystems
+    </p>
+    <h1 id="home-title">Dr. Guangzhi Tang (<span class="heading-chinese">唐广智</span>)</h1>
+    <p class="lead">{{ page.hero_subtitle }}</p>
+    <div class="intro-body">
+      {{ content }}
+    </div>
+    {% if site.profile_links %}
+      <ul class="profile-links" aria-label="Related links">
+        {% for link in site.profile_links %}
+          <li>
+            <a class="profile-link" href="{{ link.url }}">
+              <span class="profile-link-icon">{% include social-icon.html icon=link.icon %}</span>
+              <span>{{ link.label }}</span>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+  <aside class="intro-aside">
+    <div class="hero-photo" role="img" aria-label="Profile photo placeholder">
+      {% if page.profile_image %}
+        <img src="{{ page.profile_image | relative_url }}" alt="{{ page.hero_title | default: site.title }}">
+      {% else %}
+        <span>{{ page.hero_title | default: site.title }}</span>
+      {% endif %}
+    </div>
+  </aside>
+</section>
+
+<section class="news-section" aria-labelledby="news-title">
+  <h2 id="news-title">Recent News</h2>
+  {% assign sorted_news = site.data.news | sort: "date" | reverse %}
+  <ul class="news-list">
+    {% for item in sorted_news %}
+      <li>
+        <p class="news-date">{{ item.date | date: "%m/%Y" }}</p>
+        <h3 class="news-heading">
+          {% if item.link %}
+            <a href="{{ item.link }}">{{ item.title }}</a>
+          {% else %}
+            {{ item.title }}
+          {% endif %}
+        </h3>
+        {% if item.summary %}<p>{{ item.summary }}</p>{% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</section>

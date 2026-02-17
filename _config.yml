@@ -1,0 +1,44 @@
+title: ERNIS
+email: guangzhi.tang@maastrichtuniversity.nl
+description: ERNIS - personal website for updates, publications, and news.
+url: "https://USERNAME.github.io"
+baseurl: "/ernis-research"
+timezone: America/New_York
+
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+
+exclude:
+  - README.md
+  - AGENTS.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - vendor/bundle
+
+profile_links:
+  - label: Email
+    url: "mailto:guangzhi.tang@maastrichtuniversity.nl"
+    icon: email
+  - label: ORCID
+    url: "https://orcid.org/0000-0002-0204-9225"
+    icon: orcid
+  - label: Google Scholar
+    url: "https://scholar.google.com/citations?user=0RTieCUAAAAJ&hl=en"
+    icon: scholar
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/guangzhi-tang-389459a0/"
+    icon: linkedin
+  - label: GitHub
+    url: "https://github.com/michaelgzt"
+    icon: github
+  - label: University Profile
+    url: "https://www.maastrichtuniversity.nl/g-tang"
+    icon: university

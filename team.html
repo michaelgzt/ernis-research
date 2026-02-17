@@ -1,0 +1,43 @@
+---
+layout: page
+title: People
+summary: Current team members in ERNIS and PhD and Master students I am currently supervising or have supervised.
+permalink: /team/
+---
+{% assign all_people = site.data.team %}
+
+<h2 id="team-members">Team Members</h2>
+
+{% assign team_members = all_people | sort: "start_year" | reverse %}
+{% for member in team_members %}
+{% if member.classes contains "Team Members" %}
+{% include member-card.html member=member %}
+{% endif %}
+{% endfor %}
+
+<h2 id="phd-students">PhD Students</h2>
+
+{% assign phd_students = all_people | sort: "start_year" | reverse %}
+{% for member in phd_students %}
+{% if member.classes contains "PhD Students" %}
+{% include member-card.html member=member %}
+{% endif %}
+{% endfor %}
+
+<h2 id="master-students">Master Students</h2>
+
+{% assign master_students = all_people | sort: "start_year" | reverse %}
+{% for member in master_students %}
+{% if member.classes contains "Master Students" %}
+{% include member-card.html member=member %}
+{% endif %}
+{% endfor %}
+
+<h2 id="previous-members">Previous Members</h2>
+
+{% assign previous_members = all_people | sort: "end_year" | reverse %}
+{% for member in previous_members %}
+{% if member.classes contains "Previous Members" %}
+{% include member-card.html member=member %}
+{% endif %}
+{% endfor %}
