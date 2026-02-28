@@ -6,6 +6,9 @@
     <title>{% if page.title and page.title != "Home" %}{{ page.title }} | {% endif %}{{ site.title }}</title>
     <meta name="description" content="{{ page.summary | default: site.description }}">
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    {% if page.layout == "post" %}
+      <link rel="stylesheet" href="{{ '/assets/css/markdown-github.css' | relative_url }}">
+    {% endif %}
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to content</a>

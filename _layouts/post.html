@@ -18,7 +18,9 @@ layout: default
     {% endif %}
   </header>
 
-  {{ content }}
+  <div class="markdown-body">
+    {{ content }}
+  </div>
 
   {% if page.prompts %}
     {% for item in page.prompts %}

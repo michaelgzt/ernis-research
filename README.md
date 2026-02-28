@@ -107,6 +107,24 @@ prompts:
       Second prompt text...
 ```
 
+### Blog Markdown support
+
+Blog post content uses core GitHub Flavored Markdown behavior through Jekyll `kramdown` + `GFM` input, with scoped GitHub-like styling on post pages.
+
+Supported core syntax includes:
+
+- Fenced code blocks with language highlighting
+- Tables
+- Task lists (`- [ ]` / `- [x]`)
+- Strikethrough (`~~text~~`)
+- Autolink-style URLs and standard Markdown links
+- Blockquotes, nested lists, and inline code
+
+Non-goals:
+
+- No unsupported GitHub Pages plugins are added
+- No guarantee for non-core GitHub-only extensions beyond standard GFM/kramdown support
+
 ### 4) Add a team photo with caption
 
 1. Put your image in `/Users/arenberg/Documents/GitHub/ernis-research/assets/images/team/`.
