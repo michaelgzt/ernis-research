@@ -1,3 +1,8 @@
+- date: 2026-05-28
+  title: Proposal funded by NWO-JST call on unconventional computing
+  summary: "NWO-JST will jointly fund more than 2M euros for our project on Cross-Paradigm Orchestration of Quantum Computers, Neuromorphic Chips, and Conventional Accelerators."
+  link: "https://www.nwo.nl/en/news/five-research-projects-receive-funding-under-the-nwo-jst-call-for-unconventional-information-processing-technologies"
+
 - date: 2026-01-23
   title: Paper accepted at ISBI 2026
   summary: "Our work on reliable, energy-efficient framework for 3D brain tumor segmentation using spiking neural networks is accepted at ISBI 2026."
