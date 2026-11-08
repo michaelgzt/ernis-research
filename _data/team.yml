@@ -12,26 +12,28 @@
 - name: Laurent Chen
   role: Junior Researcher
   affiliation: Department of Advanced Computing Sciences, Maastricht University
-  bio: "Laurent is currently a junior researcher for our NWO AiNed XS project in collaboration with TU Dresden. He works on asynchronous event-driven neural networks for neuromorphic supercomputing. Laurent also finished his master thesis at ERNIS, working on building the software simulation and training framework for asynchronous neural networks."
+  bio: 'Laurent worked as a Junior Researcher on our NWO AiNed XS project in collaboration with TU Dresden until September 2026. He researched asynchronous event-driven neural networks for neuromorphic supercomputing. He also completed his master’s thesis at ERNIS, developing a software simulation and training framework for asynchronous neural networks.'
   email: laurent.chen@maastrichtuniversity.nl
   photo: /assets/images/team/laurent-chen.jpeg
   classes:
-    - Team Members
-  status: currents
+    - Previous Members
+  status: alumni
   start_year: 2025
+  end_year: 2026
 
-- name: Afsana Khan
-  role: PhD Candidate
+- name: Dr. Afsana Khan
+  role: PhD Graduate
   affiliation: Department of Advanced Computing Sciences, Maastricht University
-  bio: "Co-supervised with Prof. Anna Wilbik and Dr. Marijn ten Thij (Tilburg University)"
+  bio: 'Afsana defended her PhD thesis, “Unlocking Value of Data with Vertical Federated Learning,” on 11 June 2026. She was supervised by Prof. Anna Wilbik and co-supervised by Dr. Marijn ten Thij and Dr. Guangzhi Tang. <a href="https://www.maastrichtuniversity.nl/events/phd-defence-afsana-khan">View her PhD defence details</a>.'
   interests:
     - Federated Learning
     - Data Fusion
   photo: /assets/images/team/afsana-khan.jpeg
   classes:
-    - PhD Students
-  status: current
+    - Previous Members
+  status: alumni
   start_year: 2022
+  end_year: 2026
 
 - name: Tim Dick
   role: PhD Candidate
@@ -49,8 +51,20 @@
 - name: Sepideh Ghanaat
   role: Master Student (Master AI)
   affiliation: Department of Advanced Computing Sciences, Maastricht University
-  bio: "Sepideh is doing her research internship project at ERNIS on optimizing asynchronous SNNs on SpiNNaker2 neuromorphic processor."
+  bio: 'Sepideh completed her master’s thesis at ERNIS in 2026 on optimizing asynchronous spiking neural networks on the SpiNNaker2 neuromorphic processor.'
   photo: /assets/images/team/sepideh-ghanaat.jpeg
+  classes:
+    - Previous Members
+  status: alumni
+  start_year: 2026
+  end_year: 2026
+
+- name: Frederik Grüneberg
+  role: Master Student (Master AI)
+  affiliation: Department of Advanced Computing Sciences, Maastricht University
+  bio: 'Frederik started his master’s thesis at ERNIS in 2026 under the supervision of Dr. Guangzhi Tang. He works on efficient neuromorphic methods for quantum error correction.'
+  website: "https://www.linkedin.com/in/frederik-gr%C3%BCneberg/"
+  photo: /assets/images/team/frederik-grueneberg.png
   classes:
     - Master Students
   status: current
@@ -58,8 +72,8 @@
 
 - name: Joshua Kramer
   role: Master Student (Master AI)
-  affiliation: Department of Advanced Computing Sciences, Maastricht University
-  bio: "Joshua is doing his research internship project at ERNIS on edge small language model with Nvidia Jetson."
+  affiliation: imec & Department of Advanced Computing Sciences, Maastricht University
+  bio: 'Joshua completed his research internship at ERNIS on small language models at the edge using NVIDIA Jetson. His paper with Dr. Guangzhi Tang, “Beyond Sensor Streams: HALO-Agent as a Body-State Representation Layer for Wearable Agents,” was published at the WearAgent workshop at UbiComp/ISWC 2026. He is now working on his master’s thesis at imec under the continued supervision of Dr. Guangzhi Tang. <a href="https://wearagent.github.io/">View the workshop programme</a>.'
   photo: /assets/images/team/joshua-kramer.jpeg
   classes:
     - Master Students
@@ -67,24 +81,25 @@
   start_year: 2026
 
 - name: Aurora Pia Ghiardelli
-  role: Master Student (Master AI)
-  affiliation: imec & Department of Advanced Computing Sciences, Maastricht University
-  bio: 'Aurora is finishing her master thesis project at imec on intracortical neural signal processing jointly supervised by Dr. Yao-Hong Liu (imec). She has done her research internship project at ERNIS on reliable, energy-efficient framework for 3D brain tumor segmentation using spiking neural networks. The result of the project is accepted at ISBI 2026, the premier scientific conference for biomidical imaging. <a href="https://arxiv.org/abs/2601.16652">See her paper here</a>.'
+  role: Junior Researcher
+  affiliation: Department of Advanced Computing Sciences, Maastricht University
+  bio: 'Aurora joined ERNIS as a Junior Researcher in November 2026 after completing her master’s thesis at imec on intracortical neural signal processing, jointly supervised by Dr. Yao-Hong Liu (imec), and winning the FSE thesis award. Her earlier research internship at ERNIS developed a reliable, energy-efficient framework for 3D brain tumor segmentation using spiking neural networks, resulting in a paper accepted at ISBI 2026. <a href="https://arxiv.org/abs/2601.16652">Read her ISBI paper</a>.'
   photo: /assets/images/team/aurora-pia.jpeg
   classes:
-    - Master Students
+    - Team Members
   status: current
   start_year: 2024
 
 - name: Bas Körver
   role: Master Student (Master AI)
   affiliation: Department of Advanced Computing Sciences, Maastricht University
-  bio: 'Bas is finishing his master thesis project on event-based vision and automatic data collection system for biodiversity monitoring of insects.'
+  bio: 'Bas completed his master’s thesis at ERNIS in 2026 on event-based vision and automated data collection for biodiversity monitoring of insects.'
   photo: /assets/images/team/bas-korver.jpeg
   classes:
-    - Master Students
-  status: current
+    - Previous Members
+  status: alumni
   start_year: 2025
+  end_year: 2026
 
 - name: Francesca Rivelli
   role: Master Student (Master AI)
@@ -118,6 +133,17 @@
   start_year: 2024
   end_year: 2025
 
+- name: Karmanya Raizada
+  role: Master Student (Master AI)
+  affiliation: Department of Advanced Computing Sciences, Maastricht University
+  bio: 'Karmanya completed his master’s thesis at ERNIS under the supervision of Dr. Guangzhi Tang during 2025–2026. Together with Joshua Kramer, he won the Most Creative Student Challenge Award at UbiComp/ISWC 2026 for “Poisoning the Hearth.” The project explored security threats to AI-powered smart homes and developed safeguards against misleading visual inputs, supervised by Dr. Theodor Schnitzler and Dr. Guangzhi Tang. <a href="https://www.ubicomp.org/ubicomp-iswc-2026/awards-all/">View the award</a>.'
+  photo: /assets/images/team/karmanya-raizada.png
+  classes:
+    - Previous Members
+  status: alumni
+  start_year: 2025
+  end_year: 2026
+
 - name: Tauseef Ahmed
   role: Master Student (Master AI)
   affiliation: imec & Department of Advanced Computing Sciences, Maastricht University
@@ -131,11 +157,10 @@
 
 - name: Tudor Hermenean
   role: Master Student (Master AI)
-  affiliation: Department of Advanced Computing Sciences, Maastricht University
-  bio: 'Tudor finished his master research internship project at ERNIS. He worked on a project developing low-latency person detection with event-based vision and FPGA-based AI acceleration. He built a low-latency object detection pipeline using Prophesee 1Mpix event-based camera and AMD KV260. His pipeline and developed demo will be open source in the near future.'
+  affiliation: imec & Department of Advanced Computing Sciences, Maastricht University
+  bio: 'Tudor completed his master’s research internship at ERNIS on low-latency person detection with event-based vision and FPGA-based AI acceleration. He built an object detection pipeline using a Prophesee 1Mpix event-based camera and AMD KV260. He is now working on his master’s thesis at imec under the continued supervision of Dr. Guangzhi Tang.'
   photo: /assets/images/team/tudor-hermenean.jpeg
   classes:
-    - Previous Members
-  status: alumni
+    - Master Students
+  status: current
   start_year: 2025
-  end_year: 2026

@@ -40,7 +40,7 @@ layout: default
   <h2 id="news-title">Recent News</h2>
   {% assign sorted_news = site.data.news | sort: "date" | reverse %}
   <ul class="news-list">
-    {% for item in sorted_news %}
+    {% for item in sorted_news limit: 3 %}
       <li>
         <p class="news-date">{{ item.date | date: "%m/%Y" }}</p>
         <h3 class="news-heading">
@@ -54,4 +54,47 @@ layout: default
       </li>
     {% endfor %}
   </ul>
+  {% if sorted_news.size > 3 %}
+    <details class="news-more">
+      <summary>
+        <span class="news-more-label">More news</span>
+        <span class="news-less-label">Less news</span>
+      </summary>
+      <ul class="news-list">
+        {% for item in sorted_news offset: 3 %}
+          <li>
+            <p class="news-date">{{ item.date | date: "%m/%Y" }}</p>
+            <h3 class="news-heading">
+              {% if item.link %}
+                <a href="{{ item.link }}">{{ item.title }}</a>
+              {% else %}
+                {{ item.title }}
+              {% endif %}
+            </h3>
+            {% if item.summary %}<p>{{ item.summary }}</p>{% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </details>
+  {% endif %}
 </section>
+
+{% if site.data.linkedin.size > 0 %}
+<section class="linkedin-section" aria-labelledby="linkedin-title">
+  <h2 id="linkedin-title">Latest on LinkedIn</h2>
+  <div class="linkedin-grid">
+    {% for post in site.data.linkedin %}
+      <div class="linkedin-post">
+        <iframe
+          src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:{{ post.id }}?collapsed=1"
+          height="{{ post.height }}"
+          width="504"
+          loading="lazy"
+          allowfullscreen
+          title="{{ post.title | escape }}"></iframe>
+        <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:{{ post.id }}/">View post on LinkedIn</a>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

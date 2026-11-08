@@ -1,3 +1,35 @@
+- date: 2026-10-20
+  title: NCN 2026 brings neuromorphic community to Maastricht
+  summary: "We hosted NCN 2026 in Maastricht, bringing together 160 registered participants from the Netherlands and neighboring countries for talks, discussions, and hands-on sessions on neuromorphic computing."
+  link: "https://lnkd.in/p/eWd5JRTC"
+
+- date: 2026-10-15
+  title: Students win Most Creative Student Challenge Award at UbiComp 2026
+  summary: "Our master’s students Joshua Kramer and Karmanya Singh Raizada won the Most Creative Student Challenge Award at UbiComp/ISWC 2026 for “Poisoning the Hearth,” exploring security threats to AI-powered smart homes."
+  link: "https://www.ubicomp.org/ubicomp-iswc-2026/awards-all/"
+
+# Month confirmed; day is an internal sorting value, not the publication day.
+- date: 2026-07-31
+  title: NWO features our AiNed XS project
+  summary: "An NWO interview highlights our AiNed XS project on making artificial intelligence more sustainable, exploring brain-inspired computing approaches to reduce the energy demands of modern AI."
+  link: "https://www.nwo.nl/en/making-artificial-intelligence-more-sustainable-by-learning-from-the-brain"
+
+- date: 2026-07-02
+  title: Two oral talks and three posters at ICNCE 2026
+  summary: "Our team presented two oral talks and three posters at ICNCE 2026 in Aachen, covering neural decoding, asynchronous neural networks, event vision, tumor segmentation, and neural implant signal compression."
+  link: "https://www.youtube.com/watch?v=v6JEjbqbIao"
+
+- date: 2026-06-19
+  title: NEAT 2026 connects embedded AI researchers and practitioners
+  summary: "We co-organized the Netherlands Embedded AI Technologies Symposium at SURF Utrecht, bringing together more than 50 researchers and practitioners to exchange advances in embedded AI hardware, algorithms, and applications."
+  link: "https://lnkd.in/p/e5ny3fte"
+
+# Month-level entry; day is an internal sorting value.
+- date: 2026-06-01
+  title: Neuromorphic speech recognition paper presented at IJCNN 2026
+  summary: "Tauseef Ahmed presented our work on efficient neuromorphic speech recognition at IJCNN 2026 in Maastricht, introducing activation sparsity into SpeechMamba models in collaboration with imec the Netherlands."
+  link: "https://arxiv.org/abs/2606.01135"
+
 - date: 2026-05-28
   title: Proposal funded by NWO-JST call on unconventional computing
   summary: "NWO-JST will jointly fund more than 2M euros for our project on Cross-Paradigm Orchestration of Quantum Computers, Neuromorphic Chips, and Conventional Accelerators."

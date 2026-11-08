@@ -264,6 +264,75 @@ h2 {
   margin: 0.15rem 0 0;
 }
 
+.news-more > summary {
+  display: inline-block;
+  margin: 1rem 0 0.5rem;
+  padding: 0.45rem 0.9rem;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  color: var(--link);
+  font-weight: 600;
+  cursor: pointer;
+  list-style: none;
+}
+
+.news-more > summary::-webkit-details-marker {
+  display: none;
+}
+
+.news-more > summary:hover {
+  border-color: var(--link);
+}
+
+.news-more > summary:focus-visible {
+  outline: 2px solid var(--link);
+  outline-offset: 3px;
+}
+
+.news-less-label,
+.news-more[open] .news-more-label {
+  display: none;
+}
+
+.news-more[open] .news-less-label {
+  display: inline;
+}
+
+.linkedin-section {
+  margin-top: 2.25rem;
+  border-top: 1px solid var(--line);
+  padding-top: 1.35rem;
+}
+
+.linkedin-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.linkedin-post {
+  min-width: 0;
+}
+
+.linkedin-post iframe {
+  display: block;
+  width: 100%;
+  border: 0;
+}
+
+.linkedin-post > a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 1100px) {
+  .linkedin-grid {
+    grid-template-columns: minmax(0, 504px);
+    justify-content: center;
+  }
+}
+
 .page,
 .post {
   max-width: 54rem;
