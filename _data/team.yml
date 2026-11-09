@@ -13,7 +13,6 @@
   role: Junior Researcher
   affiliation: Department of Advanced Computing Sciences, Maastricht University
   bio: 'Laurent worked as a Junior Researcher on our NWO AiNed XS project in collaboration with TU Dresden until September 2026. He researched asynchronous event-driven neural networks for neuromorphic supercomputing. He also completed his master’s thesis at ERNIS, developing a software simulation and training framework for asynchronous neural networks.'
-  email: laurent.chen@maastrichtuniversity.nl
   photo: /assets/images/team/laurent-chen.jpeg
   classes:
     - Previous Members
@@ -84,6 +83,7 @@
   role: Junior Researcher
   affiliation: Department of Advanced Computing Sciences, Maastricht University
   bio: 'Aurora joined ERNIS as a Junior Researcher in November 2026 after completing her master’s thesis at imec on intracortical neural signal processing, jointly supervised by Dr. Yao-Hong Liu (imec), and winning the FSE thesis award. Her earlier research internship at ERNIS developed a reliable, energy-efficient framework for 3D brain tumor segmentation using spiking neural networks, resulting in a paper accepted at ISBI 2026. <a href="https://arxiv.org/abs/2601.16652">Read her ISBI paper</a>.'
+  email: aurorapia.ghiardelli@maastrichtuniversity.nl
   photo: /assets/images/team/aurora-pia.jpeg
   classes:
     - Team Members
@@ -93,7 +93,7 @@
 - name: Bas Körver
   role: Master Student (Master AI)
   affiliation: Department of Advanced Computing Sciences, Maastricht University
-  bio: 'Bas completed his master’s thesis at ERNIS in 2026 on event-based vision and automated data collection for biodiversity monitoring of insects.'
+  bio: 'Bas completed his master’s thesis at ERNIS in 2026 on event-based vision and automated data collection for biodiversity monitoring of insects. He has a paper published at the NeVi workshop at ECCV 2026. <a href="https://openreview.net/pdf?id=ttipftOZwD">Read the paper</a>.'
   photo: /assets/images/team/bas-korver.jpeg
   classes:
     - Previous Members
@@ -147,7 +147,7 @@
 - name: Tauseef Ahmed
   role: Master Student (Master AI)
   affiliation: imec & Department of Advanced Computing Sciences, Maastricht University
-  bio: 'Tauseef finished his master thesis at imec working on event-driven state space models for speech recognition and neuromorphic software simulation. His project was jointly supervised by Kanishkan Vadivel (imec). The results of his thesis is currently submitted to a conference and under review.'
+  bio: 'Tauseef finished his master thesis at imec working on event-driven state space models for speech recognition and neuromorphic software simulation. His project was jointly supervised by Kanishkan Vadivel (imec). The results of his thesis were published at IJCNN. <a href="https://ieeexplore.ieee.org/abstract/document/11729420">Read the paper</a>.'
   photo: /assets/images/team/tauseef-ahmed.jpeg
   classes:
     - Previous Members
