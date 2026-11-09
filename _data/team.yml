@@ -72,7 +72,7 @@
 - name: Joshua Kramer
   role: Master Student (Master AI)
   affiliation: imec & Department of Advanced Computing Sciences, Maastricht University
-  bio: 'Joshua completed his research internship at ERNIS on small language models at the edge using NVIDIA Jetson. His paper with Dr. Guangzhi Tang, “Beyond Sensor Streams: HALO-Agent as a Body-State Representation Layer for Wearable Agents,” was published at the WearAgent workshop at UbiComp/ISWC 2026. He is now working on his master’s thesis at imec under the continued supervision of Dr. Guangzhi Tang. <a href="https://wearagent.github.io/">View the workshop programme</a>.'
+  bio: 'Joshua completed his research internship at ERNIS on small language models at the edge using NVIDIA Jetson. His paper with Dr. Guangzhi Tang, “Edge Interactive Agent for Type 1 Diabetes Self-Management with Continuous Glucose Monitoring,” was published at the WearAgent workshop at UbiComp/ISWC 2026. He is now working on his master’s thesis at imec under the continued supervision of Dr. Guangzhi Tang. <a href="https://wearagent.github.io/">View the workshop programme</a>.'
   photo: /assets/images/team/joshua-kramer.jpeg
   classes:
     - Master Students
